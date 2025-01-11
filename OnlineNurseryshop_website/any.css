@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+:root{
+    --green:#27ae60;
+    --black:#2c2c54;
+  }
+  
+  *{
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+  }
+  *::selection{
+    background:var(--green);
+    color:#fff;
+  }
+  
+  html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6.5rem;
+    scroll-behavior: smooth;
+  }
+  
+  section{
+    padding:2rem 9%;
+  }
+  .btn{
+  display: inline-block;
+  margin-top: 1rem;
+  background:var(--green);
+  color:#fff;
+  padding:.8rem 3rem;
+  font-size: 1.7rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background:var(--black);
+}
+.pro .box-container{
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+  }
+  
+  .pro .box-container .box{
+    border:.1rem solid rgba(0,0,0,.3);
+    border-radius: .5rem;
+    text-align: center;
+    padding:2rem;
+    flex:1 1 25rem;
+  }
+  .pro .box-container .box img{
+    width: 20rem;
+    margin:.5rem 0;
+  }
+  
+  .pro .box-container .box h3{
+    font-size: 2.5rem;
+    color:var(--black);
+  }
+  
+  .pro .box-container .box p{
+    font-size: 2rem;
+    color:#666;
+    padding:.5rem 0;
+  }
